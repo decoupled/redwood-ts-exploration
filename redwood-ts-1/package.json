@@ -1,0 +1,20 @@
+{
+  "name": "web",
+  "version": "0.0.0",
+  "private": true,
+  "browserslist": [
+    "defaults"
+  ],
+  "scripts": {
+    "tsc-w-noEmit": "tsc -p ./ --noEmit -w",
+    "format": "prettier --write \"./{src,src-gen}/**/*.{js,json,md,ts,tsx}\""
+  },
+  "dependencies": {
+    "@redwoodjs/router": "^0.6.0",
+    "@redwoodjs/web": "^0.6.0",
+    "prettier": "^2.0.5",
+    "prop-types": "^15.7.2",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  }
+}

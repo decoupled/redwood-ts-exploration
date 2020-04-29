@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "allowJs": true,
+    "jsx": "react",
+    "esModuleInterop": true,
+    "paths": {
+      "src/pages/FatalErrorPage": ["./src/pages/FatalErrorPage/FatalErrorPage"],
+      "src/components/MyComp2": ["./src/components/MyComp2/MyComp2"],
+      "src/*": ["./src/*","./src-gen/*"]
+    }
+  },
+  "include": ["src/**/*", "src-gen/**/*"]
+}
