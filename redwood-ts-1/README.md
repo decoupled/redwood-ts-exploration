@@ -10,6 +10,6 @@ An exploration of possible techniques.
 This project is now compiling:
 
 ```
-yarn tsc-w-noemit
+yarn tsc-w-noEmit
 ```
 
